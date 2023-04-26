@@ -1,6 +1,6 @@
 import java.util.*;
 
-class HelloWorld{
+class SubsetSum{
     
     public static boolean subsetSum(int[] arr,int n,int target){
         boolean[][] dp = new boolean[n+1][target+1];
